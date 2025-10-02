@@ -16,8 +16,8 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, sans-serif;
-  color: #380339;
-  background-color: #c797c8;
+  color: #220223;
+  background-color: #f7ebf8;
   margin: 0;
   padding: 0;
 }
@@ -63,9 +63,9 @@ main {
 
 /* Header */
 header {
-  background: #f4d3f9;
+  background: #e3b4ecda;
   padding: 1rem 0;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid #470451;
 }
 
 /* Footer */
@@ -156,7 +156,7 @@ select:focus {
 
 /* Navigation styles */
 header {
-  background: #f4d3f9;
+  background: #a589ac;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 nav {
@@ -185,3 +185,24 @@ nav ul li a:focus {
   color: #007acc;
   outline: none;
 }
+.analysis-text {
+  columns: 1;
+  column-gap: 2rem;
+}
+@media (min-width: 800px) {
+  .analysis-text {
+    columns: 2;
+  }
+}
+.screenshots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.screenshots img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+<link rel="stylesheet" href="/assets/css/index.css">
+<link rel="stylesheet" href="/assets/css/sow.css">
