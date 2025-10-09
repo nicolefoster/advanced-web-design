@@ -6,6 +6,8 @@ _Critical Coding for a Better Living._
 
 This repository is the **starting point for each student’s personal project** in the WEB ATELIER (UDIT) framework. While `web-foundations` provides the canonical lessons and `professor-course-template` manages the class instance, the **Student Project Template** is where each student designs and develops their own site. Every week, students commit progress here — _one student · one repo · one project · one commit per class_.
 
+[find my published site here](https://nicolefoster.github.io/advanced-web-design/)
+
 ## Purpose & Audience
 
 - **For Students:** A personal repository to build a web project step by step, following lessons. It deploys live via GitHub Pages.
