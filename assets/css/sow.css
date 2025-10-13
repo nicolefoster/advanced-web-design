@@ -186,7 +186,7 @@ nav ul li a:focus {
   outline: none;
 }
 .analysis-text {
-  columns: 2;
+  columns: 1;
   column-gap: 2rem;
 }
 @media (min-width: 800px) {
@@ -204,3 +204,78 @@ nav ul li a:focus {
   height: auto;
   border: 1px solid #ccc;
 }
+
+/* pegamos desde aca*/
+.title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0;
+  animation: fadeIn 2s forwards ease-in;
+}
+/* Individual Analysis Sections */
+section {
+  background: #fff;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  scroll-margin-top: 80px;
+}
+
+section h2 {
+  color:#781d2ada;ea;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  border-bottom: 3px solid #781d2ada;
+  padding-bottom: 0.5rem;
+}
+
+/* Site Preview iFrame */
+.site-preview {
+  width: 100%;
+  height: 500px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* Analysis Text with Responsive Columns */
+.analysis-text {
+  columns: 1;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+@media (min-width: 800px) {
+  .analysis-text {
+    columns: 2;
+  }
+}
+
+.analysis-text h3 {
+  color: #e05a6eda;;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  break-after: avoid;
+  column-span: none;
+}
+
+.analysis-text p {
+  margin-bottom: 1rem;
+}
+
+.analysis-text ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.analysis-text li {
+  margin-bottom: 0.5rem;
+}
+
+.analysis-text strong {
+  color: ##781d2ada;;
+}
+/* fin pegamos desde aca*/
