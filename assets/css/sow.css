@@ -16,8 +16,8 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, sans-serif;
-  color: #220223;
-  background-color: #f7ebf8;
+  color: #781d2ada;
+  background-color: #fce4ef;
   margin: 0;
   padding: 0;
 }
@@ -63,14 +63,14 @@ main {
 
 /* Header */
 header {
-  background: #e3b4ecda;
+  background: #ffc3bdda;
   padding: 1rem 0;
-  border-bottom: 1px solid #470451;
+  border-bottom: 1px solid #f9aea7da;
 }
 
 /* Footer */
 footer {
-  background: #f4d3f9;
+  background: #ffc3bdda;
   padding: 2rem 0;
   margin-top: 4rem;
   border-top: 1px solid #e9ecef;
@@ -79,7 +79,7 @@ footer {
 }
 
 footer a {
-  color: #007bff;
+  color: #ffc3bdda;
   text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ button:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid #007bff;
+  outline: 2px solid #ffc3bdda;
   outline-offset: 2px;
 }
 
@@ -142,21 +142,21 @@ select:focus {
   top: 6px;
 }
 #site-awwwards {
-  color: #380339;
+  color: #781d2ada;
 }
 #site-webby {
-  color: #380339;
+  color: #781d2ada;
 }
 #site-fwa {
-  color: #380339;
+  color: #781d2ada;
 }
 #site-cssda {
-  color: #380339;
+  color: #781d2ada;
 }
 
 /* Navigation styles */
 header {
-  background: #a589ac;
+  background: #ffb0bdda;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 nav {
@@ -175,18 +175,18 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #781d2ada;
 }
 html {
   scroll-behavior: smooth;
 }
 nav ul li a:hover,
 nav ul li a:focus {
-  color: #007acc;
+  color: #781d2ada;
   outline: none;
 }
 .analysis-text {
-  columns: 1;
+  columns: 2;
   column-gap: 2rem;
 }
 @media (min-width: 800px) {
