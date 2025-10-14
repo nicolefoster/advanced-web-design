@@ -161,6 +161,8 @@ header {
 }
 nav {
   position: fixed;
+  background: #ffb0bdda;
+  height: 2%;
   top: 0;
   z-index: 1000;
 }
