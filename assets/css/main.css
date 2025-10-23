@@ -141,3 +141,6 @@ select:focus {
 .skip-link:focus {
   top: 6px;
 }
+h1 {
+  font-family: "OCR-A", monospace;
+}

@@ -1,2 +1,4 @@
-@import url('http://meyerweb.com/eric/tools/css/reset/reset.css'); /* CSS Reset for browser compatibility */
-@import url('main.css'); /* Main styles */
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css"); /* CSS Reset for browser compatibility */
+@import url("reset.css"); /* Main styles */
+@import url("type.css"); /* Main styles */
+@import url("main.css"); /* Main styles */
